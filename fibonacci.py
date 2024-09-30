@@ -1,7 +1,9 @@
 """
 la suite de fibonacci
 """
+from functools import cache
 
+@cache
 def fibo_cached(n):
     """
     # une implémentation naïve et inefficace
